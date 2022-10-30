@@ -1,10 +1,15 @@
-package ua.khpi.oop.borusov05;
+package ua.khpi.oop.borusov06;
+import java.io.Serializable;
 
-import java.util.*;
 
-public class Main {
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-	public static void main(String[] args) {
+public class textReplace implements Serializable {
+
+
+	public static void replace() {
 		String str = "Як умру то поховайте мене на могилі"; 
 		
 	    String[] words = str.split(" ");
@@ -60,6 +65,7 @@ public class Main {
 	    		System.out.println("Word '" + word + "' was be deleted");
 	    	}
 	    }
+	    System.out.print("\n\n");
+	  
 	}
 }
-
